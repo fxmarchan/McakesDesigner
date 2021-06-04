@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #eee9ed;
+    overflow-x: hidden;
+
+}
+h1{
+    color: black;    
+    text-align: center;
+}
+table th{
+    background-color: #ff92b6;
+    color: black;
+}
+.Ingresar{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+.TablasGeneral{
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    text-align: left;
+    text-align: center;
+    font-size: 12px;
+    width: 90%;
+    font-family: sans-serif;
+    background-color: black;
+}
+.dataTables_info{
+    order: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #ff92b6;
+    padding: 14px 0px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 20%;
+    font-family: sans-serif;
+    margin: 20px;
+    float:left;
+}
+.dataTables_length{
+    order: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #ff92b6;
+    padding: 14px 0px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 20%;
+    font-family: sans-serif;
+    float:left;
+}
+.dataTables_length select{
+    background-color: black;
+    color: white;
+}
+.dataTables_filter{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #ff92b6;
+    padding: 14px 0px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 20%;
+    font-family: sans-serif;
+    margin: 20px 20px 20px 78%;
+}
+.dataTables_filter input[type="search"]{
+    background-color: #ff92b6;
+    color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+#TablaDatos{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: left;
+    text-align: center;
+    font-size: 12px;
+    width: 90%;
+    font-family: sans-serif;
+}
+#colorapro{
+    color:#ff92b6;
+    font-weight: bold;
+    
+}
+#colorSI{
+    color: #3B83BD;
+    font-weight: bold;
+}
+#colorden{
+    color:red;
+    font-weight: bold;
+}
+#TablaDatos_paginate{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    padding: 14px 0px;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    width: 20%;
+    font-family: sans-serif;
+    margin: 20px 20px 20px 78%;
+}
+#TablaDatos_previous, #TablaDatos_next {
+    background-color: white;
+    color: black;
+    border: 2px solid #ff92b6;
+    border-radius: 24px;
+    padding: 10px 35px;
+    margin: auto 0;
+}
+#TablaDatos_previous:hover, #TablaDatos_next:hover{
+    background: #ff92b6;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #ff92b6;
+    padding: 14px 0px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 20%;
+}
+    
+.box input[type="submit"]:hover{
+    background: #ff92b6;
+}
+.buttons button[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 100px;
+    text-align: center;
+    border: 2px solid #ff92b6;
+    padding: 14px 30px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 100%;
+}
+    
+.buttons button[type="button"]:hover{
+    background: #ff92b6;
+}
+.conteiner{
+    border-radius: 25px;
+    border: 2px solid #ff92b6;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    padding-top: 50px;
+    margin: 60px 500px;
+}

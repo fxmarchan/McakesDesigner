@@ -1,0 +1,84 @@
+.Ingresar{
+    border: 1px solid #ff92b6;
+    border-collapse: collapse;
+    color: black;
+    padding: 20px 7px;
+    text-align: left;
+    text-align: center;
+    margin: 20px auto;
+}
+.Ingresar1{
+    border: 1px solid #ff92b6;
+    border-collapse: collapse;
+    color: white;
+    padding: 20px ;
+    text-align: left;
+    text-align: center;
+    margin: auto auto;
+    width: 99%;
+}
+.otroboton{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ff92b6;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+}
+.otroboton:hover{
+    background: #ff92b6;
+}
+#FECHAEMISION,#FECHAENTREGA, #HORA{
+background-color: #ff92b6;
+width: 200px;
+height: 30px;
+font-size: large;
+color: white;
+}
+.FormText{
+color: white;
+background-color: #ff92b6;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 140px;
+}
+.checkbok{
+-webkit-filter: invert(100%);
+filter: invert(100%);
+width: 50px;
+height: 50px;
+}
+.box input[type="submit"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #ff92b6;
+padding: 14px 10px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+}
+th{
+    background-color: #ff92b6;
+}
+
+.box input[type="submit"]:hover{
+background: #ff92b6;
+}
+#GALONESLET{
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+.ListaDes{
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: #ff92b6;
+    font-family: sans-serif;
+}

@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #eee9ed;
+    font-size: large;
+}
+
+header {
+    width: 100%;
+    background-color: #ff92b6;
+}
+
+#Mandar{
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: auto auto;
+    font-family: sans-serif;
+}
+
+img.pequeña {
+    width: 50px;
+    height: 50px;
+}
+
+#btn-menu {
+    display: none;
+}
+hr{
+    background-color: black;
+}
+.redes {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 110px 5px;
+}
+
+.prenultimo {
+    text-align: center;
+    color: gray;
+    border-collapse: separate;
+    border-spacing: 100px 5px;
+}
+
+.foooter {
+    text-align: center;
+    color: rebeccapurple;
+    border-collapse: separate;
+    border-spacing: 300px 5px;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.prenultimo {
+    color: rebeccapurple;
+    text-align: justify;
+    margin: 50px auto;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    border-right: 1px solid white;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:768px) {
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: #ff92b6;
+        width: 30%;
+        margin-left: -70%;
+        transition: all 1s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid;
+    }
+
+    #btn-menu:checked~.menu {
+        margin: 0;
+    }
+}
+
+.fa {
+    border-left: 60px;
+    padding: 40px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
